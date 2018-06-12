@@ -1,0 +1,12 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "editor.cursorStyle": "underline-thin",
+    "editor.cursorBlinking": "smooth",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "window.zoomLevel": -1
+}
