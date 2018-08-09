@@ -1,19 +1,19 @@
-alias gs='git status '
-alias ga='git add '
-alias gb='git branch '
-alias gc='git commit'
-alias gd='git diff'
-alias gco='git checkout '
-alias gu='git reset HEAD '
-alias gua='git reset HEAD~1'  
-alias gl="git log --pretty=format:'%Cred%h%Creset 👉 %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-
+alias stat='git status'
+alias add='git add '
+alias ac='git add -u && git commit -m'
+alias br='git branch '
+alias del='git branch -D '
+alias com='git commit'
+alias diff='git diff'
+alias co='git checkout '
+alias un='git reset HEAD '
+alias undo='git reset HEAD~1'
+alias log="git log --pretty=format:'%Cred%h%Creset 👉 %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias stash='git stash'
+alias apply='git stash apply'
+alias pull='git pull origin '
+alias push='git push origin '
 alias got='git '
 alias get='git '
 
-alias reload='. ~/.bash_profile'
-
-source ~/git-completion.bash
-
-alias Redox='cd ~/Sites/RedoxEngine'
-alias Dash='cd ~/Sites/dashboard'
+alias reload='source ~/.bashrc && source ~/.bash_profile && source ~/.zshrc && clear'
